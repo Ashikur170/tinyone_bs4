@@ -1,0 +1,119 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.menu ul {
+    margin-top: 10px;
+}
+.menu ul li a {
+    text-align: right;
+    padding: 0 !important;
+}
+/*header end*/
+/*slider start*/
+.slider_section {
+    padding-bottom: 70px;
+}
+.custom_car_ind {
+    bottom: -60px;
+}
+.custom_car_ind li {
+    width: 12px;
+    height: 12px;
+}
+.s_content {
+    margin-top: 10px;
+}
+.s_content h1 {
+    font-size: 25px;
+}
+.s_content p {
+    margin-bottom: 20px;
+}
+.s_icon li i {
+    font-size: 25px;
+    margin-right: 0;
+}
+.s_img img {
+    display: none;
+}
+/*slider end*/
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.menu ul {
+    margin-top: 10px;
+}
+.menu ul li a {
+    text-align: right;
+    padding: 0 !important;
+}
+/*header end*/
+/*slider start*/
+.slider_section {
+    padding-bottom: 80px;
+}
+.s_content {
+    margin-top: 20px;
+}
+.s_content h1 {
+    font-size: 28px;
+}
+.custom_car_ind {
+    bottom: -60px;
+}
+.custom_car_ind li {
+    width: 13px;
+    height: 13px;
+}
+.s_icon li i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.s_img img {
+    display: none;
+}
+/*slider end*/
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul {
+    margin-top: 10px;
+}
+.menu ul li a {
+    text-align: right;
+    padding: 0 !important;
+}
+/*header end*/
+/*slider start*/
+.s_content {
+    margin-top: 50px;
+}
+/*slider end*/
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*slider start*/
+.s_img {
+    margin-left: 70px;
+}
+/*slider end*/
+}
+
+/* Extra extra large devices (1400px and up)*/
+@media (min-width: 1400px){
+/*slider start*/
+.s_img {
+    margin-left: 80px;
+}
+/*slider end*/
+}
